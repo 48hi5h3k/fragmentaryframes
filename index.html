@@ -1,10 +1,180 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Fragmentary Frames</title>
+
+    <style>
+        body {
+            margin: 0;
+            background: #111;
+            color: #eee;
+            font-family: Georgia, serif;
+            line-height: 1.6;
+        }
+
+        header {
+            padding: 60px 8% 40px;
+            border-bottom: 1px solid #333;
+        }
+
+        header h1 {
+            font-size: 48px;
+            font-weight: normal;
+            margin: 0;
+        }
+
+        header p {
+            color: #aaa;
+            font-size: 18px;
+            max-width: 600px;
+        }
+
+        nav {
+            margin-top: 30px;
+        }
+
+        nav a {
+            color: #ccc;
+            text-decoration: none;
+            margin-right: 25px;
+        }
+
+        nav a:hover {
+            color: white;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: auto;
+            padding: 70px 8%;
+        }
+
+        .intro {
+            font-size: 28px;
+            max-width: 750px;
+            margin-bottom: 80px;
+        }
+
+        section {
+            margin-bottom: 80px;
+        }
+
+        h2 {
+            font-size: 30px;
+            font-weight: normal;
+            margin-bottom: 20px;
+        }
+
+        .entry {
+            border-top: 1px solid #333;
+            padding: 25px 0;
+        }
+
+        .entry h3 {
+            margin: 0;
+            font-size: 22px;
+            font-weight: normal;
+        }
+
+        .date {
+            color: #777;
+            font-size: 14px;
+        }
+
+        footer {
+            border-top: 1px solid #333;
+            padding: 40px 8%;
+            color: #777;
+            font-size: 14px;
+        }
+    </style>
 </head>
+
 <body>
-    <h1>Fragmentary Frames</h1>
-    <p>A personal archive of photographs, journals, and videos.</p>
+
+    <header>
+        <h1>Fragmentary Frames</h1>
+
+        <p>
+            Photographs, fragments, journals, and things worth remembering.
+        </p>
+
+        <nav>
+            <a href="#journal">Journal</a>
+            <a href="#photographs">Photographs</a>
+            <a href="#videos">Videos</a>
+            <a href="#about">About</a>
+        </nav>
+    </header>
+
+
+    <main>
+
+        <div class="intro">
+            A personal archive of places I've been, things I've noticed,
+            photographs I've taken, and fragments of life that I don't want
+            to disappear.
+        </div>
+
+
+        <section id="journal">
+            <h2>Journal</h2>
+
+            <div class="entry">
+                <div class="date">August 2026</div>
+                <h3>The beginning</h3>
+                <p>
+                    After years of keeping photographs and memories scattered
+                    across hard drives and forgotten folders, I'm finally
+                    putting them somewhere.
+                </p>
+            </div>
+
+        </section>
+
+
+        <section id="photographs">
+            <h2>Photographs</h2>
+
+            <p>
+                A collection of photographs from the last decade.
+                Some meaningful. Some accidental. Some simply forgotten.
+            </p>
+
+        </section>
+
+
+        <section id="videos">
+            <h2>Videos</h2>
+
+            <p>
+                Moving images, old recordings, trips, experiments, and
+                everything else that doesn't belong in a photograph.
+            </p>
+
+        </section>
+
+
+        <section id="about">
+            <h2>About</h2>
+
+            <p>
+                Fragmentary Frames is my personal archive.
+                I'm not a professional photographer. I simply like
+                noticing things and occasionally managing to capture them.
+            </p>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+        Fragmentary Frames · A personal archive
+    </footer>
+
 </body>
 </html>
